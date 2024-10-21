@@ -12,7 +12,9 @@ public class TVSeries {
     public void changeRating(int newRating){
 
     }
-    public void addEpisode(int episode){}
+    public void addEpisode(int NumOfEpisodes, int episode){
+        System.out.println("hello");
+    }
 
 
 }
