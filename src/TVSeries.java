@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.ArrayList;
 
 public class TVSeries {
@@ -12,8 +14,13 @@ public class TVSeries {
     public void changeRating(int newRating){
 
     }
-    public void addEpisode(int NumOfEpisodes, int episode){
-        System.out.println("hello");
+
+    public void addEpisode(int NumOfEpisodes, int episode, int seasons){
+
+    }
+
+    public void PrintInfo(){
+        System.out.println();
     }
 
 
